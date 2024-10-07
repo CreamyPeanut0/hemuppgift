@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --outline: 1px dotted red;
+}
+.header{
+    height: 150px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-YGqGkLRsClIAAqAEUUAnLdYo3dpCXIRFyg&s);
+    background-repeat: no-repeat;background-size: cover;
+    
+}
+
+.header h1{
+    width:100%;
+    height:100%; /* width and height */
+    background: linear-gradient(to left, transparent, whitesmoke 100%);
+
+    
+    display:flex;/* make stuff in th right position */
+    justify-content:center;
+    align-items:center;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Font stuff */
+    font-size:4rem;
+    text-indent:3rem;
+    color:#ADD8E6;
+    text-shadow:1px 4px 1px #ffffff; 
+}
+
+.box{
+    background-color: plum;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    
+}
+
+button{
+    background-color: purple;
+    height:40px;
+    align-items: center;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 5%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition-duration: 0.4s;
+
+
+}
+
+button:hover{
+    background-color: plum;
+    padding: 25px;
+}
+
+.line{
+    background-color: plum;
+    display: flex;
+    height: 5px
+}
+
+.bilder{
+    display: flex;
+    justify-content: space-between
+    
+}
+
+.bilder img {
+    height: 180px;
+    margin: 8px;
+    padding: 0px;
+    padding:.4rem .4rem 2rem .2rem;
+  border:1px solid #0004;
+  margin:1rem;
+  box-shadow:5px 5px 15px #0006;
+  rotate:-3deg;
+  background-color: plum;
+}
+img:nth-child(even){
+  rotate:2deg;
+}
+
+.texter {
+    display: flex;
+    gap:3rem;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+
+
+
+.leftruta{
+    width: 48%;
+    padding: 20px;
+background-color: plum;
+}
+
+.righttext{
+    width:48%;
+    padding: 20px;
+    background-color: plum;
+}
+
+.bilderhöger img{
+    height: 100px;
+    margin: 8px;
+    padding: 0px;
+    float: right;
+    
+}
+
+
+</style>
+
+</head>
+<body>
+
+    
+
+    <div class="header">
+    <h1>Fixet</h1>
+    </div>
+
+    <div class="box">
+     <button> Om Oss</button>
+     <button>Anmäl Dig</button>
+     <button>Kosnad</button>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="bilder">
+<img src="https://goteborgco.se/uploads/2022/11/Way-Out-West-2022_Happy-Visuals_2208_82-scaled.jpg"; alt="bild">
+<img src="https://goteborgco.se/uploads/2019/12/4-3mtvworldstage_copyrightbeatricetornros1.jpg"; alt="bild">
+<img src="https://www.ungisundsvall.se/wp/wp-content/uploads/2021/09/Evenemang.jpg"; alt="bild">
+<img src="https://cms.goteborg.com/uploads/2023/01/Kulturkalas-Konsert_House-of-Vision_2208_61_43.jpg"; alt="bild">
+    </div>
+
+
+<main class="texter">
+
+    <div class="leftruta">
+        <h1>Vi löser</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae a neque explicabo doloribus laboriosam doloremque dolor magnam deleniti tempore porro.</p>
+        <h3>Fixet</h3>
+        <br>
+        <h1>Vi fixar</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, enim sunt delectus laudantium minus itaque fugiat, rerum distinctio animi rem non placeat iste nam, nihil amet reiciendis!</p>
+        <h3>Fixet</h3>
+    </div>
+    <div class= "righttext">
+        <div class="bilderhöger">
+        <h1>Planering</h1>
+        <div class="bild1"> <img src="https://aastroem.se/wp-content/uploads/sites/7048/2018/05/event-evenemang-planera-planning-_647550292.jpg" alt="bild"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto aliquid voluptatem consequuntur molestias maxime, alias beatae repellat, vitae adipisci ut ex veritatis saepe enim ipsa?</p>
+    <div class="bilderhöger">
+    
+
+
+<br>
+    <h1>Lös</h1>
+    <div class="bild2"><img src="https://www.visitroslagen.se/sites/cb_visitroslagen/files/styles/slide_large/public/_Slideshow%20-%20Evenemang.jpg.webp?itok=VW74qd0h" alt="bild"></div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis ex placeat doloremque perspiciatis voluptates repellat cumque dolore animi asperiores? Blanditiis iusto fuga tenetur vero rerum cumque totam exercitationem esse. Recusandae.</p>
+   
+    </div>
+</div>
+
+
+</main>
+
+
+
+</body>
+</html>
